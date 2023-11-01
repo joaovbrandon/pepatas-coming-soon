@@ -45,6 +45,7 @@ p {
 }
 
 .social-icons {
+  margin-bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,6 +80,18 @@ p {
   transform: scale(1.2);
   -webkit-transform: scale(1.2);
   text-decoration: none;
+}
+
+.email-link {
+  font-family: "Muli", sans-serif;
+  font-size: 0.9em;
+  font-weight: normal;
+  color: #36c9c9;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
 }
 
 @keyframes fadeIn {
